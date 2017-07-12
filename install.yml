@@ -1,0 +1,6 @@
+---
+- name: Kalliope delay neuron install
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: true
